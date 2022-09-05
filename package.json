@@ -1,0 +1,31 @@
+{
+  "name": "first_nuxt_project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && nuxt",
+    "teji": "export NODE_OPTIONS=--openssl-legacy-provider && nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "bootstrap-vue": "^2.22.0",
+    "core-js": "^3.19.3",
+    "nuxt": "^2.12.2",
+    "vue": "^2.7.8",
+    "vue-axios": "^3.4.1",
+    "vue-router": "^3.5.4",
+    "vue-server-renderer": "^2.7.8",
+    "vue-template-compiler": "^2.7.8",
+    "vuejs-datatable": "^2.0.0-alpha.7",
+    "vuetify": "^2.6.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.3",
+    "webpack": "^4.46.0"
+  }
+}
